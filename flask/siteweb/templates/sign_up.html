@@ -1,0 +1,102 @@
+{% extends "base.html" %} {% block title %}Sign Up{% endblock %} {% block
+content %}
+<link rel="stylesheet" href="../static/sig_up.css" />
+<div class="form-container">
+  <form method="POST">
+    <div class="form-header">
+      <h3 align="center"><marquee>Sign Up</marquee></h3>
+    </div>
+    <div class="form-body">
+      <label for="email">Email Address</label>
+      <div class="form-input">
+        <input type="email" id="email" name="email" placeholder="Enter email" />
+      </div>
+      <label for="firstName">First Name</label>
+      <div class="form-input">
+        <input
+          type="text"
+          id="firstName"
+          name="firstName"
+          placeholder="Enter first name"
+        />
+      </div>
+
+      <label for="password">Password</label>
+      <div class="form-input">
+        <input
+          type="password"
+          id="password1"
+          name="password1"
+          placeholder="Enter password"
+        />
+      </div>
+
+      <label for="password2">Password (Confirm)</label>
+      <div class="form-input">
+        <input
+          type="password"
+          id="password2"
+          name="password2"
+          placeholder="Confirm password"
+        />
+      </div>
+
+      <div class="form-submit">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+<style>
+  .form-container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #ccc;
+  }
+  
+  .form-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form-header h3 {
+    margin: 0;
+  }
+  
+  .form-body {
+    margin-bottom: 20px;
+  }
+  
+  .form-input {
+    margin-bottom: 10px;
+  }
+  
+  .form-input input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-submit {
+    margin-top: 20px;
+  }
+  
+  .form-submit .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+</style>
+{% endblock %}

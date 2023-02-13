@@ -1,0 +1,42 @@
+.list-group-item {
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .list-group-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.3);
+  }
+
+  .form-control {
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .form-control:focus {
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.3);
+  }
+
+  .btn {
+    background-color: #00b0ff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.3);
+  }
